@@ -45,28 +45,28 @@
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
       rel="stylesheet"
     />
-    <script type=application/ld+json>
+    <script type="application/ld+json">
       {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Nina Carducci",
-            "description": "Photographe professionnelle à Bordeaux.",
-            "image": "https://github.com/ElenaTrif/ninacarducci/assets/images/nina.png",
-            "priceRange": "50€ - 400€",
-            "address": {
-            "@type": "PostalAddress",
-            "addressCountry": "FR",
-            "addressRegion": "Nouvelle-Aquitaine",
-            "addressLocality": "Bordeaux",
-            "postalCode": "33200",
-            "streetAddress": "68 Avenue Alsace Lorraine"
-            },
-  
-            "openingHours": "Mo-Fr 10:00-19:00",
-            "telephone": "05 56 67 78 89",
-            "sameAs": ["https://www.instagram.com/ninacarducci.photo"]
-          }
-      </script>
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Nina Carducci",
+        "description": "Photographe professionnelle à Bordeaux.",
+        "image": "https://github.com/ElenaTrif/ninacarducci/assets/images/nina.png",
+        "priceRange": "50€ - 400€",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "FR",
+          "addressRegion": "Nouvelle-Aquitaine",
+          "addressLocality": "Bordeaux",
+          "postalCode": "33200",
+          "streetAddress": "68 Avenue Alsace Lorraine"
+        },
+
+        "openingHours": "Mo-Fr 10:00-19:00",
+        "telephone": "05 56 67 78 89",
+        "sameAs": ["https://www.instagram.com/ninacarducci.photo"]
+      }
+    </script>
   </head>
   <body>
     <header class="top-header">
@@ -83,7 +83,11 @@
               href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
               target="_blank"
               rel="noopener"
-              ><img src="assets/images/instagram.png" alt="Logo instagram"
+              ><img
+                src="assets/images/instagram.webp"
+                width="20"
+                height="20"
+                alt="Logo instagram"
             /></a>
           </li>
         </ul>
@@ -120,25 +124,31 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img
-                src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg"
-                class="d-block w-100"
-                alt="Un homme traversant le passage piéton"
-              />
+              <picture>
+                <img
+                  src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp"
+                  class="d-block w-100"
+                  alt="Un homme traversant le passage piéton"
+                />
+              </picture>
             </div>
             <div class="carousel-item">
-              <img
-                src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg"
-                class="d-block w-100"
-                alt="Un public bruyant"
-              />
+              <picture>
+                <img
+                  src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp"
+                  class="d-block w-100"
+                  alt="Un public bruyant"
+                />
+              </picture>
             </div>
             <div class="carousel-item">
-              <img
-                src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg"
-                class="d-block w-100"
-                alt="Un couple dansant et s'embrassant"
-              />
+              <picture>
+                <img
+                  src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp"
+                  class="d-block w-100"
+                  alt="Un couple dansant et s'embrassant"
+                />
+              </picture>
             </div>
           </div>
           <button
@@ -164,7 +174,11 @@
       <section>
         <div id="about">
           <div class="picture left">
-            <img src="./assets/images/nina.png" alt="Photo de Nina Carducci" />
+            <img
+              src="./assets/images/nina.webp"
+              alt="Photo de Nina Carducci"
+              loading="eager"
+            />
           </div>
           <div id="about-me">
             <h2 class="about-me__title">A propos de moi</h2>
@@ -196,63 +210,63 @@
               <img
                 data-gallery-tag="Concert"
                 class="gallery-item"
-                src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg"
-                alt="Photographie d'un concert montrant les mains des gens et l'éclairage, prise artistique avec une ambiance captivante"
+                src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp"
+                alt="Photographie d'un concert montrant les mains des gens et l'éclairage dans une ambiance captivante"
                 loading="lazy"
               />
               <img
                 data-gallery-tag="Entreprises"
                 class="gallery-item"
-                src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg"
+                src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp"
                 alt="Portrait d'un entrepreneur en face de l'ordinateur"
                 loading="lazy"
               />
               <img
                 data-gallery-tag="Entreprises"
                 class="gallery-item"
-                src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg"
+                src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp"
                 alt="Une femme souriante discutant avec ses collègues dans le bureau"
                 loading="lazy"
               />
               <img
                 data-gallery-tag="Mariages"
                 class="gallery-item"
-                src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg"
+                src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp"
                 alt="Les mains des mariés qui montrent le sentiment du bonheur et d'amour"
                 loading="lazy"
               />
               <img
                 data-gallery-tag="Portrait"
                 class="gallery-item"
-                src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg"
+                src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp"
                 alt="Portrait d'un homme avec les yeux fermés, expressant la paix intérieure"
                 loading="lazy"
               />
               <img
                 data-gallery-tag="Mariages"
                 class="gallery-item"
-                src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg"
+                src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp"
                 alt="Un couple de mariés sous un palmier, capturant leur amour dans un cadre tropical"
                 loading="lazy"
               />
               <img
                 data-gallery-tag="Portrait"
                 class="gallery-item"
-                src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg"
+                src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp"
                 alt="Portrait d'une jeune femme portant des lunettes, affichant un air confiant et déterminé"
                 loading="lazy"
               />
               <img
                 data-gallery-tag="Concert"
                 class="gallery-item"
-                src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg"
+                src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp"
                 alt="Un concert montrant un chanteur captivant le public avec son énergie"
                 loading="lazy"
               />
               <img
                 data-gallery-tag="Entreprises"
                 class="gallery-item"
-                src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg"
+                src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp"
                 alt="Une femme souriante devant l'ordinateur, illustrant le travail d'équipe et le succès professionnel"
                 loading="lazy"
               />
@@ -322,10 +336,12 @@
       </div>
       <div class="quote">
         <figure>
-          <blockquote class="quote__text">
-            De manière inconsciente, je crois, je guette un regard, une
-            expression, des traits ou une nostalgie capable de résumer ou plus
-            exactement de révéler une vie
+          <blockquote>
+            <h1 class="quote__text">
+              De manière inconsciente, je crois, je guette un regard, une
+              expression, des traits ou une nostalgie capable de résumer ou plus
+              exactement de révéler une vie
+            </h1>
           </blockquote>
           <figcaption class="quote__author">- Richard Avedon</figcaption>
         </figure>
@@ -369,7 +385,7 @@
           </div>
           <div class="picture right">
             <img
-              src="./assets/images/camera.png"
+              src="./assets/images/camera.webp"
               alt="Un appareil photo dans l'obscurité"
               loading="lazy"
             />
