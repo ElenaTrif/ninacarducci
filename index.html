@@ -18,8 +18,8 @@
     />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="fr_FR" />
-    <meta property=og:url content=https://github.com/ElenaTrif/ninacarducci >
-    <meta property=og:image
+    <meta property="og:url" content=https://github.com/ElenaTrif/ninacarducci >
+    <meta property="og:image"
     content=https://github.com/ElenaTrif/ninacarducci/assets/images/nina.png>
     <meta
       property="og:description"
@@ -34,17 +34,22 @@
       name="twitter:description"
       content="Découvrez le monde de la photographie avec Nina Carducci, photographe professionnelle à Bordeaux et en Île-de-France. Saisissez les merveilleux moments de la vie à travers de son regard."
     />
-    <meta name=twitter:image
+    <meta name="twitter:image"
     content=https://github.com/ElenaTrif/ninacarducci/assets/images/nina.png>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
     <link rel="stylesheet" href="./assets/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+      as="style"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -127,8 +132,9 @@
               <picture>
                 <img
                   src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp"
-                  class="d-block w-100"
+                  class="w-100 h-100"
                   alt="Un homme traversant le passage piéton"
+                  srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-mobile.webp"
                 />
               </picture>
             </div>
@@ -136,8 +142,10 @@
               <picture>
                 <img
                   src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp"
-                  class="d-block w-100"
+                  class="w-100 h-100"
                   alt="Un public bruyant"
+                  srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-mobile.webp"
+                  loading="lazy"
                 />
               </picture>
             </div>
@@ -145,8 +153,10 @@
               <picture>
                 <img
                   src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp"
-                  class="d-block w-100"
+                  class="w-100 h-100"
                   alt="Un couple dansant et s'embrassant"
+                  srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-mobile.webp"
+                  loading="lazy"
                 />
               </picture>
             </div>
@@ -177,6 +187,7 @@
             <img
               src="./assets/images/nina.webp"
               alt="Photo de Nina Carducci"
+              class="w-100 h-100"
               loading="eager"
             />
           </div>
@@ -388,6 +399,7 @@
             <img
               src="./assets/images/camera.webp"
               alt="Un appareil photo dans l'obscurité"
+              class="w-100 h-100"
               loading="lazy"
             />
           </div>
